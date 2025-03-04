@@ -5,13 +5,13 @@
     {
       "action": "allow",
       "disabled": true,
-      "process": "*Unity Hub.app*", // 使用通配符匹配 Unity Hub
+      "process": "*Unity Hub.app*",
       "remote": "any",
-      "via": "*UnityPackageManager*" // 使用通配符匹配 UPM
+      "via": "*UnityPackageManager*"
     },
     {
       "action": "allow",
-      "process": "identifier.com.unity3d.unityhub", // 使用进程标识符匹配 Unity Hub
+      "process": "identifier.com.unity3d.unityhub",
       "remote-hosts": "docs.unity3d.com",
       "via": "identifier.SHA256/697cd0a869d2abaea1e8b4d9d6f42f124ffe5efce660d869cada2079ebd1abba"
     },
