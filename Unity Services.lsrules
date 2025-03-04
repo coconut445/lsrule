@@ -1,14 +1,7 @@
 {
-  "description" : "用于常规使用Unity编辑器时的规则组.\n该规则组中默认禁用了UPM(Unity Package Manager)向外的连接, 如果在打开项目时UPM报错或是想要通过UPM升级某个package请临时打开, 待使用完毕后再关闭.",
+  "description" : "用于使用Unity编辑器时的过滤规则组",
   "name" : "Unity Services",
   "rules" : [
-    {
-      "action" : "allow",
-      "disabled" : true,
-      "process" : "\/Applications\/Unity Hub.app\/Contents\/MacOS\/Unity Hub",
-      "remote" : "any",
-      "via" : "\/Volumes\/Zcw's Mac\/Applications\/Unity\/Hub\/Editor\/2020.3.40f1\/2020.3.44f1\/Unity.app\/Contents\/Resources\/PackageManager\/Server\/UnityPackageManager"
-    },
     {
       "action" : "allow",
       "process" : "identifier.BVPN9UFA9B\/com.unity3d.unityhub",
