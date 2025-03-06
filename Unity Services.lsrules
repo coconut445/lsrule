@@ -11,6 +11,12 @@
     {
       "action" : "allow",
       "process" : "identifier.BVPN9UFA9B\/com.unity3d.unityhub",
+      "remote-hosts" : "googleusercontent.com",
+      "via" : "identifier.SHA256\/697cd0a869d2abaea1e8b4d9d6f42f124ffe5efce660d869cada2079ebd1abba"
+    },
+    {
+      "action" : "allow",
+      "process" : "identifier.BVPN9UFA9B\/com.unity3d.unityhub",
       "remote-domains" : "fbcdn.net",
       "via" : "identifier.SHA256\/697cd0a869d2abaea1e8b4d9d6f42f124ffe5efce660d869cada2079ebd1abba"
     },
